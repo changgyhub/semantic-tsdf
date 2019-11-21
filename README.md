@@ -2,7 +2,7 @@
 
 Semantic TSDF for self-driving static scene reconstruction.
 
-TSDF (truncated signed distance function) can be used to reconstruct the static scene around a self-driving car. Since it is fast and optimizable by GPU, we prefer to use TSDF rather than fused point cloud to represent the world. However, we must filter dynamic objects that may hinder our reconstruction. Since motion-based methods will still capture cars that stops for a while before the red light, we would like to use semantic segmentation networks to filter out the dynamic objects.
+TSDF (truncated signed distance function) can be used to reconstruct the static scene around a self-driving car. Since it is fast and optimizable by GPU, we prefer to use TSDF rather than fused point cloud to represent the world. However, we must filter out dynamic objects that may hinder our reconstruction. Since motion-based methods will still capture cars that stop for a while at the red light, we would like to use semantic segmentation networks to filter out the objects that are possibly dynamic.
 
 Below is the reconstruction result on KITTI sequence 0106.
 
