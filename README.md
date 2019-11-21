@@ -6,7 +6,8 @@ TSDF (truncated signed distance function) can be used to reconstruct the static 
 
 Below is the reconstruction result on KITTI sequence 0106.
 
-![Reconstruction Example](example.gif)
+![KITTI Sequence 0106](0106_color_.gif)
+![Reconstruction Example](0106_tsdf.gif)
 
 Please refer to the LICENSE file for inherited Licenses.
 
